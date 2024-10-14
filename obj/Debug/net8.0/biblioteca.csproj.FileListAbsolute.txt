@@ -1,0 +1,14 @@
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.AssemblyInfo.cs
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\Atividade biblioteca\bin\Debug\net8.0\biblioteca.exe
+C:\Users\Aluno\Documents\Atividade biblioteca\bin\Debug\net8.0\biblioteca.deps.json
+C:\Users\Aluno\Documents\Atividade biblioteca\bin\Debug\net8.0\biblioteca.runtimeconfig.json
+C:\Users\Aluno\Documents\Atividade biblioteca\bin\Debug\net8.0\biblioteca.dll
+C:\Users\Aluno\Documents\Atividade biblioteca\bin\Debug\net8.0\biblioteca.pdb
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.dll
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\refint\biblioteca.dll
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.pdb
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\biblioteca.genruntimeconfig.cache
+C:\Users\Aluno\Documents\Atividade biblioteca\obj\Debug\net8.0\ref\biblioteca.dll

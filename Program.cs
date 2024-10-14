@@ -5,6 +5,7 @@ using System.Threading;
 class Program
 {
     static List<Livro> biblioteca = new List<Livro>();
+    static Dictionary<string, int> emprestimosPorUsuario = new Dictionary<string, int>();
 
     static void Main()
     {
@@ -32,7 +33,7 @@ class Program
                         {
                             switch (opcaoadm)
                             {
-                                case 1: 
+                                case 1:
                                     CadastrarLivro();
                                     break;
 
@@ -45,6 +46,12 @@ class Program
                         break;
 
                     case 2: 
+                        Console.WriteLine("Digite seu nome:");
+                        string nomeUsuario = Console.ReadLine();
+                        if (!emprestimosPorUsuario.ContainsKey(nomeUsuario))
+                        {
+                            emprestimosPorUsuario[nomeUsuario] = 0; 
+
                         Console.WriteLine("Escolha o que deseja fazer:");
                         Console.WriteLine("1- Pegar um livro emprestado.");
                         Console.WriteLine("2- Devolver um livro.");
@@ -55,7 +62,7 @@ class Program
                             switch (opcaousu)
                             {
                                 case 1: 
-                                    PegarEmprestado();
+                                    PegarEmprestado(nomeUsuario);
                                     break;
 
                                 case 2: 
@@ -91,8 +98,15 @@ class Program
         Console.ReadLine(); 
     }
 
-    static void PegarEmprestado()
+    static void PegarEmprestado(string usuario)
     {
+        if (emprestimosPorUsuario[usuario] >= 3)
+        {
+            Console.WriteLine("Você já pegou o máximo de 3 livros emprestados.");
+            Console.ReadLine(); 
+            return;
+        }
+
         Console.WriteLine("Livros disponíveis:");
         foreach (var livro in biblioteca)
         {
@@ -107,6 +121,7 @@ class Program
         if (livroEncontrado != null)
         {
             biblioteca.Remove(livroEncontrado);
+            emprestimosPorUsuario[usuario]++;
             Console.WriteLine($"Você pegou '{livroEncontrado.Nome}' emprestado com sucesso!");
         }
         else

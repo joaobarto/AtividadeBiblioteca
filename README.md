@@ -1,38 +1,22 @@
-# Sistema de Biblioteca
+# Sistema de Gerenciamento de Biblioteca
 
-## Descrição do Projeto
-
-Este projeto implementa um sistema de gerenciamento de biblioteca que permite a administração e os usuários interagirem com um catálogo de livros. O sistema permite que o administrador cadastre novos livros, enquanto os usuários podem emprestar e devolver livros, respeitando um limite de três empréstimos por usuário.
+Este é um sistema simples de gerenciamento de biblioteca desenvolvido em C#. O sistema permite que administradores cadastrem livros e usuários peguem livros emprestados ou devolvam livros.
 
 ## Funcionalidades
 
-### Administrador
-- Cadastrar novos livros, especificando título, autor e gênero.
-- Listar todos os livros disponíveis no catálogo.
+- **Administrador:**
+  - Cadastrar novos livros na biblioteca.
+  
+- **Usuário:**
+  - Pegar um livro emprestado.
+  - Devolver um livro.
 
-### Usuário
-- Consultar o catálogo da biblioteca.
-- Pegar livros emprestados (até 3 por usuário).
-- Devolver livros emprestados.
+## Estrutura do Projeto
 
-## Tecnologias Utilizadas
-- **C#**: Linguagem de programação utilizada para desenvolver o sistema.
-- **.NET**: Framework utilizado para executar o código.
+- **Classes:**
+  - `Program`: Classe principal que contém a lógica do sistema.
+  - `Livro`: Classe que representa um livro, com propriedades para autor, nome e gênero.
 
-## Estrutura do Código
-
-O código é dividido em três classes principais:
-
-1. **`Livro`**: Representa um livro com propriedades para título, autor, gênero e quantidade disponível.
-2. **`Usuario`**: Representa um usuário da biblioteca, armazenando seu nome e uma lista de livros emprestados.
-3. **`Program`**: Contém a lógica principal do sistema, incluindo menus e operações para administradores e usuários.
-
-## Backlog
-
-### Funcionalidades Futuras
-- Adicionar persistência de dados (ex.: salvar em um banco de dados ou arquivo).
-- Implementar um sistema de busca por título, autor ou gênero.
-- Adicionar funcionalidades de avaliação e comentários para os livros.
-- Permitir que os usuários visualizem seu histórico de empréstimos.
-
+- **Listas:**
+  - O sistema utiliza uma lista (`List<Livro>`) para armazenar os livros disponíveis.
 

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Attbiblioteca/1.0.0": {
+        "runtime": {
+          "Attbiblioteca.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Attbiblioteca/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

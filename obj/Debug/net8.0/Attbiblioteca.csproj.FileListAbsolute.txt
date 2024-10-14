@@ -1,0 +1,15 @@
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\bin\Debug\net8.0\Attbiblioteca.exe
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\bin\Debug\net8.0\Attbiblioteca.deps.json
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\bin\Debug\net8.0\Attbiblioteca.runtimeconfig.json
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\bin\Debug\net8.0\Attbiblioteca.dll
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\bin\Debug\net8.0\Attbiblioteca.pdb
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.sourcelink.json
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.dll
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\refint\Attbiblioteca.dll
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.pdb
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\Attbiblioteca.genruntimeconfig.cache
+C:\Users\Aluno\Desktop\Joao v\AtividadeBiblioteca\Attbiblioteca\obj\Debug\net8.0\ref\Attbiblioteca.dll

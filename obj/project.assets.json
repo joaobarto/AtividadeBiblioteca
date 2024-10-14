@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\Attbiblioteca\\Attbiblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\Attbiblioteca.csproj",
       "projectName": "Attbiblioteca",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\Attbiblioteca\\Attbiblioteca.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\Attbiblioteca.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\Attbiblioteca\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Desktop\\Joao v\\AtividadeBiblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

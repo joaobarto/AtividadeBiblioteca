@@ -35,12 +35,4 @@ O código é dividido em três classes principais:
 - Adicionar funcionalidades de avaliação e comentários para os livros.
 - Permitir que os usuários visualizem seu histórico de empréstimos.
 
-### Bugs Conhecidos
-- Validação básica na entrada de dados do usuário.
-- Mensagens de erro podem ser melhoradas para melhor usabilidade.
 
-## Como Executar o Código
-
-1. Clone o repositório:
-   ```bash
-   git clone <URL_DO_REPOSITORIO>

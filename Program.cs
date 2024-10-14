@@ -23,7 +23,7 @@ class Program
             {
                 switch (tipoConta)
                 {
-                    case 1: // Administrador
+                    case 1: 
                         Console.WriteLine("Escolha o que deseja fazer:");
                         Console.WriteLine("1- Cadastrar novos livros.");
                         Console.WriteLine("2- Sair.");
@@ -32,11 +32,11 @@ class Program
                         {
                             switch (opcaoadm)
                             {
-                                case 1: // Cadastrar novos livros
+                                case 1: 
                                     CadastrarLivro();
                                     break;
 
-                                case 2: // Sair
+                                case 2: 
                                     Console.WriteLine("Saindo...");
                                     Thread.Sleep(1800);
                                     break;
@@ -44,7 +44,7 @@ class Program
                         }
                         break;
 
-                    case 2: // Usuário
+                    case 2: 
                         Console.WriteLine("Escolha o que deseja fazer:");
                         Console.WriteLine("1- Pegar um livro emprestado.");
                         Console.WriteLine("2- Devolver um livro.");
@@ -54,22 +54,22 @@ class Program
                         {
                             switch (opcaousu)
                             {
-                                case 1: // Pegar um livro emprestado
+                                case 1: 
                                     PegarEmprestado();
                                     break;
 
-                                case 2: // Devolver um livro
+                                case 2: 
                                     DevolverLivro();
                                     break;
 
-                                case 3: // Sair
+                                case 3: 
                                     opcaoc = false;
                                     break;
                             }
                         }
                         break;
 
-                    case 3: // Sair
+                    case 3: 
                         opcaoc = false;
                         break;
                 }
@@ -88,7 +88,7 @@ class Program
 
         biblioteca.Add(new Livro(autor, nomel, generol));
         Console.WriteLine("Livro cadastrado com sucesso!");
-        Console.ReadLine(); // Pausa para visualizar a mensagem
+        Console.ReadLine(); 
     }
 
     static void PegarEmprestado()
@@ -102,7 +102,7 @@ class Program
         Console.WriteLine("Digite o nome do livro que deseja pegar emprestado:");
         string nomeLivro = Console.ReadLine();
 
-        // Verifica se o livro está na biblioteca
+        
         var livroEncontrado = biblioteca.Find(l => l.Nome.Equals(nomeLivro, StringComparison.OrdinalIgnoreCase));
         if (livroEncontrado != null)
         {
@@ -114,7 +114,7 @@ class Program
             Console.WriteLine("Livro não encontrado.");
         }
 
-        Console.ReadLine(); // Pausa para visualizar a mensagem
+        Console.ReadLine(); 
     }
 
     static void DevolverLivro()
@@ -127,10 +127,10 @@ class Program
         Console.WriteLine("Gênero do livro:");
         string genero = Console.ReadLine();
 
-        // Adiciona o livro de volta à biblioteca
+        
         biblioteca.Add(new Livro(autor, nomeLivro, genero));
         Console.WriteLine($"Você devolveu '{nomeLivro}' com sucesso!");
-        Console.ReadLine(); // Pausa para visualizar a mensagem
+        Console.ReadLine(); 
     }
 }
 
